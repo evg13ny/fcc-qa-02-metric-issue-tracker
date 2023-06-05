@@ -1,3 +1,7 @@
 # Issue Tracker
 
-This is the boilerplate for the Issue Tracker project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/issue-tracker
+Jira clone written using Express, MongoDB and Node.js.
+
+Tested with Mocha and Chai.
+
+Track your tasks [here](https://boilerplate-project-issuetracker.evg13ny.repl.co).
