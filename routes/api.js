@@ -163,7 +163,7 @@ module.exports = function (app) {
       }
 
       ProjectModel.findOne({ name: project }, (err, projectdata) => {
-        if (!projectdata || err) {
+        if (err || !projectdata) {
           res.send({ error: 'could not delete', _id: _id });
         } else {
           const issueData = projectdata.issues.id(_id);
