@@ -273,3 +273,8 @@ suite('Functional Tests', () => {
     });
 
 });
+
+after(() => {
+    chai.request(server)
+        .get('/');
+});
